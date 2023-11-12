@@ -52,6 +52,11 @@ section h3 {
     color: #003366; /* Navy Blue */
 }
 
+section h4 {
+    color: #003366; /* Navy Blue */
+    display: inline;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
