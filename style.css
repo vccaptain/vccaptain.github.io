@@ -54,6 +54,7 @@ section h3 {
 
 section h4 {
     color: #003366; /* Navy Blue */
+    margin-bottom: 5px;
 }
 
 section a, a:visited, a:hover, a:active {
