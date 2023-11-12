@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -8,10 +8,18 @@ body {
 }
 
 header {
-    background: #0056b3;
+    background: #003366; /* Navy Blue */
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 header h1 {
@@ -20,9 +28,9 @@ header h1 {
 }
 
 header h2 {
-    margin-top: 10px;
+    margin-top: 5px;
     font-weight: normal;
-    color: #ade1f9;
+    color: #b9e1ff;
 }
 
 main {
@@ -36,22 +44,22 @@ section {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    color: #003366; /* Navy Blue */
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #333;
+    background: #003366; /* Navy Blue */
     color: #fff;
 }
 
 @media (max-width: 768px) {
-    body {
-        padding: 0 10px;
-    }
-
-    main {
+    body, main {
         padding: 10px;
     }
 }
