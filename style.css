@@ -57,8 +57,8 @@ section h4 {
 }
 
 section a, a:visited, a:hover, a:active {
-    color: inherit; /* Inherits the color from the parent element */
-    text-decoration: none; /* Removes underline from links */
+    color: #003366; 
+    text-decoration: bold; 
 }
 
 footer {
