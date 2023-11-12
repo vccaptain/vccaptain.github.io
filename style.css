@@ -73,3 +73,20 @@ footer {
         padding: 10px;
     }
 }
+
+.intro-section {
+            background-color: #f0f0f0; /* Light grey background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        .intro-section a {
+            color: #0077b5; /* LinkedIn blue */
+            text-decoration: underline;
+        }
+
+        .intro-section a:hover {
+            color: #005582; /* Darker LinkedIn blue */
+        }
