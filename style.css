@@ -57,6 +57,10 @@ section h4 {
     display: inline;
 }
 
+section p {
+    display: inline;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
