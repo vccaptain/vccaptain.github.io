@@ -59,7 +59,7 @@ section h4 {
 
 section a, a:visited, a:hover, a:active {
     color: #003366; 
-    text-decoration: bold; 
+    text-decoration: none; 
 }
 
 footer {
